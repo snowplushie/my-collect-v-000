@@ -6,3 +6,4 @@ def my_collect(languages)
 end
 end
 
+languages = ['ruby', 'javascript', 'python', 'objective-c']
