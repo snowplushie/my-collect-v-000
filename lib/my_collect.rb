@@ -1,4 +1,5 @@
 def my_collect(array)
+  empty = []
   i = 0
   while i < array.length
   yield(array[i])
@@ -6,5 +7,3 @@ def my_collect(array)
 end
 end
 
-languages = ['ruby', 'javascript', 'python', 'objective-c']
-students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
